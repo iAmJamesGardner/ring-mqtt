@@ -61,8 +61,8 @@ RUN S6_VERSION="v3.2.0.0" && \
     rm -f -r /tmp/*
 ENTRYPOINT [ "/init" ]
 
-EXPOSE 8554/tcp
-EXPOSE 55123/tcp
+EXPOSE 8555/tcp
+EXPOSE 55124/tcp
 
 ARG BUILD_VERSION
 ARG BUILD_DATE
