@@ -68,16 +68,16 @@ ARG BUILD_VERSION
 ARG BUILD_DATE
 
 LABEL \
-    io.hass.name="Ring-MQTT with Video Streaming" \
+    io.hass.name="Ring-MQTT with Video Streaming 2" \
     io.hass.description="Home Assistant Community Add-on for Ring Devices" \
     io.hass.type="addon" \
     io.hass.version=${BUILD_VERSION} \
     maintainer="Tom Sightler <tsightler@gmail.com>" \
-    org.opencontainers.image.title="Ring-MQTT with Video Streaming" \
+    org.opencontainers.image.title="Ring-MQTT with Video Streaming 2" \
     org.opencontainers.image.description="Intergrate wtih Ring devices using MQTT/RTSP" \
     org.opencontainers.image.authors="Tom Sightler <tsightler@gmail.com> (and various other contributors)" \
     org.opencontainers.image.licenses="MIT" \
-    org.opencontainers.image.source="https://github.com/tsightler/ring-mqtt" \
+    org.opencontainers.image.source="https://github.com/iAmjamesgardner/ring-mqtt" \
     org.opencontainers.image.documentation="https://github.com/tsightler/README.md" \
     org.opencontainers.image.created=${BUILD_DATE} \
     org.opencontainers.image.version=${BUILD_VERSION}
